@@ -1,0 +1,20 @@
+.jobSet-form-wrap {
+  padding: 20px;
+  position: relative;
+  .form-area{
+    margin: 20px auto;
+    width: 520px;
+    position: relative;
+  }
+  .control-label {
+    padding-top: 10px;
+  }
+  .check-wrap {
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+    input span {
+      vertical-align: middle;
+    }
+  }
+}

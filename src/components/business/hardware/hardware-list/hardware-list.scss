@@ -1,0 +1,22 @@
+.hardware-list{
+  padding: 20px;
+  clear: both;
+  .input-box-stage{
+    width: 250px;
+  }
+  .tool-stage{
+    margin-bottom: 15px;
+  }
+  .button-add-wrap{
+    float: right;
+  }
+  .add {
+    float: right;
+  }
+  .img-box{
+    width: 100px;
+    >img{
+      width: 100%;
+    }
+  }
+}

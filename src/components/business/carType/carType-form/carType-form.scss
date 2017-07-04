@@ -1,0 +1,28 @@
+  .carType-form-wrap {
+    padding: 20px;
+    position: relative;
+    .form-area{
+      width: 600px;
+      margin: 20px auto;
+      position: relative;
+      .all-select-wrap{
+        margin-right: 5px;
+      }
+    }
+    .control-label{
+      width: 150px;
+      padding-top: 10px;
+    }
+    .all-select-wrap {
+      width: 180px;
+      display: inline-block;
+    }
+    .all-input-wrap{
+      width: 370px;
+    }
+    .check-box-wrap{
+      height: 35px;
+      line-height: 35px;
+      vertical-align: middle;
+    }
+  }

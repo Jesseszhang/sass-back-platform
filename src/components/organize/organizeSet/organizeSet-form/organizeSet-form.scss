@@ -1,0 +1,20 @@
+.organizeSet-form-wrap {
+  .form-content {
+    padding: 20px;
+    .sub-content-wrap {
+      width: 520px;
+      margin: 0 auto;
+      .control-label {
+        width: 115px;
+        padding-top: 10px;
+      }
+      .col-sm-9 {
+        .status-wrap {
+          height: 35px;
+          line-height: 35px;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}

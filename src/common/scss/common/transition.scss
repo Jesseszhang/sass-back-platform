@@ -1,0 +1,31 @@
+//fade transition
+.c-fade-transition {
+  transition: all .5s ease;
+}
+.c-fade-enter {
+  opacity: 1;
+}
+.c-fade-leave {
+  opacity: 0;
+}
+.c-hide-transition {
+  transition: all .5s ease;
+}
+.c-hide-enter {
+  opacity: 1;
+}
+.c-hide-leave {
+  opacity: 0;
+}
+
+.shake-transition {
+  transition: all 5s ease;
+  transform: rotateX(30deg);
+}
+.shake-enter {
+  opacity: 1;
+}
+.shake-leave {
+  transform: rotateX(0);
+  opacity: 1;
+}

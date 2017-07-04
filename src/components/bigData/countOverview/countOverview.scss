@@ -1,0 +1,88 @@
+.countOverview {
+    height: 100%;
+    .fl {
+        float: left;
+    }
+    .fr {
+        float: right;
+    }
+    p {
+        margin: 0;
+    }
+    .countTop {
+        padding-top: 31px;
+        height: 14.28%;
+        font-size: 20px;
+        line-height: 24px;
+        color: #fff;
+        opacity: .7;
+        font-weight: bold;
+    }
+    .countMid {
+        height: 85.72%;
+        padding: 20px 20px 30px 20px;
+        background-color: rgba(239, 239, 239, 0.09);
+        box-shadow: 0 5px 6px 0 #000000;
+        .line {
+            border-radius: 4px;
+            width: 47.95%;
+        }
+        .chargernums {
+            padding: 8px 10px;
+            height: 35.42%;
+            background-color: #0092E0;
+            div {
+                text-align: right;
+                color: #fff;
+                &>p:first-child {
+                    margin-top: 10px;
+                    font-size: 14px;
+                }
+                &>p:last-child {
+                    font-size: 40px;
+                }
+            }
+        }
+        .carnums {
+            height: 35.42%;
+            padding: 11px 10px;
+            background-color: #6177FD;
+            &>div:last-child {
+                text-align: right;
+                color: #fff;
+                &>p:first-child {
+                    margin-top: 10px;
+                    font-size: 14px;
+                }
+                &>p:last-child {
+                    font-size: 40px;
+                }
+            }
+        }
+        .other {
+            margin-top: 5.44%;
+            padding: 0 13px;
+            display: flex;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.2);
+            height: 16.34%;
+            position: relative;
+            &>div:first-child {
+                margin-right: 20px;
+            }
+            &>div:last-child {
+                color: #fff;
+                text-align: right;
+                position: absolute;
+                right: 15px;
+                &>p:first-child {
+                    font-size: 10px;
+                }
+                &>p:last-child {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .countBot {}
+}

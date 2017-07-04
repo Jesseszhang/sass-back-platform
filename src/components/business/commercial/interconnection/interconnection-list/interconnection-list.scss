@@ -1,0 +1,50 @@
+.interconnection-list{
+  padding: 20px;
+  .input-box-stage{
+    width: 230px;
+  }
+  .search-btn{
+    margin-left: 10px;
+  }
+  .tool-stage{
+    margin-bottom: 15px;
+  }
+  .button-add-wrap{
+    float: right;
+  }
+  .add {
+    float: right;
+  }
+  .operateList-icon{
+    max-width: 95px;
+  }
+  .options-wrap {
+    min-width: 100px;
+    cursor: pointer;
+    .button-wrap{
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .v-after {
+      position: relative;
+      float: left;
+      padding-right: 10px;
+      padding-left: 10px;
+      vertical-align: middle;
+    }
+    .v-after+.v-after {
+      &:after {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 10px;
+        top: 2px;
+        left: 0px;
+        background: #ccc;
+      }
+    }
+    .v-after:first-child {
+      padding-left: 0px;
+    }
+  }
+}

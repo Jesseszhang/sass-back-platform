@@ -1,0 +1,46 @@
+.mapOverview {
+    position: relative;
+    height: 100%;
+    border:1px solid #1B4C6C;
+    #map-eacharts {
+      width: 100%;
+      height: 100%;
+    }
+    .info {
+      width: 550px;
+      height: 80px;
+      background: rgba(0, 0, 0, .2);
+      border-radius: 6px;
+      position: absolute;
+      left: 50%;
+      bottom: 40px;
+      margin-left: -275px;
+      padding-top: 7px;
+      table {
+        line-height: 30px;
+        margin: 0 auto;
+        tr {
+          th {
+            font-size: 14px;
+            color: #fff;
+            font-weight: bold;
+            width: 78px;
+            text-align: right;
+            padding-right: 20px;
+          }
+          td {
+            color: #fff;
+            font-weight: normal;
+            &.title {
+              width: 43px;
+              text-align: left;
+            }
+            &.value {
+              width: 74px;
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+    }
+  }

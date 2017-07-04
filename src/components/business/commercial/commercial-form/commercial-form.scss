@@ -1,0 +1,81 @@
+.commercial-form-wrap {
+  padding: 20px;
+  position: relative;
+  .form-area {
+    width: 680px;
+    margin: 20px auto;
+    position: relative;
+  }
+  .control-label {
+    width: 130px;
+    padding-top: 10px;
+  }
+  .baseInfo.step {
+    text-align: center;
+    span {
+      padding: 10px 10px;
+    }
+  }
+  .commCategory {
+    .drop-menu-items {
+      z-index: 3!important;
+    }
+  }
+  .commIndustry {
+    .drop-menu-items {
+      z-index: 3!important;
+    }
+  }
+  .status-wrap {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+  }
+  .limit-width {
+    width: 355px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .limit-btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+  .limit-area, .limit-pro, .limit-cit {
+    width: 155px;
+    float: left;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .comm-limit {
+    width: 515px;
+  }
+  .step.baseInfo {
+    .select{
+      color: #666;
+      font-weight: bold;
+    }
+    span{
+      vertical-align: middle;
+    }
+    .arrow{
+      vertical-align: top;
+      margin: 0 15px;
+    }
+  }
+  .submit-btn-wrap {
+    .btn-stage{
+       margin: 0 10px;
+    }
+  }
+  .baseInfo, .companyInfo{
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    color: #999;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #DCDCDC;
+  }
+}

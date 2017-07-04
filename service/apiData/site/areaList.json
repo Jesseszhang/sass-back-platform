@@ -1,0 +1,13 @@
+{
+    "code": 0,
+    "message": "成功",
+    "data": [{
+        "id": 1,
+        "name": "华南区",
+        "status": 1
+    }, {
+        "id": 4,
+        "name": "湖南",
+        "status": 2
+    }]
+}

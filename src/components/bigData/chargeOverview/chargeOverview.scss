@@ -1,0 +1,56 @@
+.chargeOverview {
+    height: 100%;
+    .fl {
+        float: left;
+    }
+    .fr {
+        float: right;
+    }
+    .overviewTop {
+        padding-top: 31px;
+        height: 14.28%;
+        font-size: 20px;
+        line-height: 24px;
+        color: #fff;
+        font-weight: bold;
+        opacity: .7;
+    }
+    .overviewMid {
+        height: 85.72%;
+        padding: 22px 23px 27px 23px;
+        background-color: rgba(239, 239, 239, 0.09);
+        box-shadow: 0 5px 6px 0 #000000;
+        .MidTitle {
+            height: 100%;
+            .title {
+                height: 4%;
+                &>div {
+                    padding-left: 40px;
+                    color: #FFF;
+                    font-size: 20px;
+                    position: relative;
+                }
+                &>div:first-child:before {
+                    content: "";
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background-color: #00B0FF;
+                    position: absolute;
+                    top: 11px;
+                    left: 20px;
+                }
+                &>div:last-child:before {
+                    content: "";
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background-color: #E65454;
+                    position: absolute;
+                    top: 11px;
+                    left: 20px;
+                }
+            }
+        }
+    }
+}

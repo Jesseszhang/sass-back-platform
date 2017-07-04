@@ -1,0 +1,24 @@
+.menu-form-wrap{
+  position: relative;
+  padding: 0 20px;
+  .form-area {
+    width: 550px;
+    margin: 20px auto;
+  }
+  .check-wrap{
+    height: 35px;
+    line-height: 35px;
+    input span{
+      vertical-align: middle;
+    }
+  }
+  .control-label{
+    width: 115px;
+    padding-top: 10px;
+  }
+  .check-box-wrap{
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+  }
+} 

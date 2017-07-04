@@ -1,0 +1,56 @@
+{
+  "code": 0,
+  "message": "成功",
+  "data": {
+    "serviceFee": 1,
+    "billWay": 1,
+    "unitPrice": 1,
+    "isTimeSharing": 1,
+    "sharetimelist": [
+      {
+        "unitPrice": 12, 
+        "type": 1,  
+        "sharetimes": [
+          {
+            "startTime": "00:00",
+            "endTime": "09:00"
+          },
+          {
+            "startTime": "01:00",
+            "endTime": "02:00"
+          }
+        ]
+      },
+      {
+        "unitPrice": 66,
+        "type": 2,
+        "sharetimes": [
+          {
+            "startTime": "09:00",
+            "endTime": "10:11"
+          }
+        ]
+      },
+      {
+        "unitPrice": 12,
+        "type": 3,
+        "sharetimes": [
+          {
+            "startTime": "11:00",
+            "endTime": "12:00"
+          }
+        ]
+      },
+      {
+        "unitPrice": 12,
+        "type": 4,
+        "sharetimes": [
+          {
+            "startTime": "12:00",
+            "endTime": "24:00"
+          }
+        ]
+      }
+    ]
+  }
+}

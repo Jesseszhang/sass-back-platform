@@ -1,0 +1,101 @@
+.commercialDetail-wrap {
+  border: 1px solid #d6d6d6;
+  position: relative;
+  background-color: #fff;
+  .edit-href{
+    float: right;
+    cursor: pointer;
+  }
+  .edit-title {
+    width: 100%;
+    display: inline-block;
+    color: #666;
+    font-weight: bold;
+    border-bottom: 1px solid #DCDCDC;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+  }
+
+  .edit-content {
+    padding: 0 10px;
+    border-top: none;
+    min-height: 500px;
+    .function-list.function-wrap{
+      width: 540px;
+    }
+  }
+  .baseInfo-wrap, 
+  .companyInfo-detail-wrap, 
+  .adminInfo-wrap, 
+  .service-wrap, 
+  .function-wrap{
+    width: 100%;
+    padding-left: 20px;
+    .sub-title{
+      width: 100%;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #DCDCDC;
+      color: #666666;
+    }
+    .subItem{
+      padding: 10px 0;
+      span{
+        font-weight: bolder;
+        display: inline-block;
+        margin-right: 20px;
+      }
+    }
+  }
+  .baseInfo{
+    width: 33%;
+    min-width: 300px;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    padding: 10px 0;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    .money-show{
+      max-width: 250px;
+      margin-left: 70px;
+      padding: 10px;
+      overflow: hidden;
+      background: #e6e6e6;
+      span{
+        float: left;
+        color: #666;
+        border-radius: 3px;
+        font-weight: normal;
+        padding: 5px 10px;
+        background: white;
+        margin: 5px;
+      }
+    }
+  }
+  .baseInfo-block{
+    width: 100%;
+    min-width: 300px;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    padding: 10px 0;
+    display: inline-block;
+    .img-wrap{
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      margin: 0 10px;
+      img{
+        width: 80px;
+      }
+      p{
+        padding: 0;
+        margin: 5px 0 0 0;
+        font-weight: normal;
+      }
+    }
+  }
+}

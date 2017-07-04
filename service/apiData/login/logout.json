@@ -1,0 +1,10 @@
+{
+  "code": 0,
+  "message": "成功",
+  "data": {
+    "token": "1727d57a529e47038951507ba7d50ca0",
+    "username": "B000010admin",
+    "merchantId": 63,
+    "expiredSecond": 3600
+  }
+}

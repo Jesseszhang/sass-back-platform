@@ -1,0 +1,53 @@
+@import "~config.scss";
+
+.danger-color {
+  color: $danger-color;
+}
+
+.warning-color {
+  color: $warning-color;
+}
+
+.success-color {
+  color: $success-color;
+}
+
+.default-color {
+  color: $default-color;
+}
+
+.white-color {
+  color: #fff;
+}
+
+.grey-color {
+  color: $grey;
+}
+
+.grey-dark-color {
+  color: $grey-dark;
+}
+
+.grey-light-color {
+  color: $grey-light;
+}
+
+.danger-bg {
+  background-color: $danger-color;
+}
+
+.warning-bg {
+  background-color: $warning-color;
+}
+
+.success-bg {
+  background-color: $success-color;
+}
+
+.default-bg {
+  background-color: $default-color;
+}
+
+.orange-bg {
+  background-color: $orange-color;
+}

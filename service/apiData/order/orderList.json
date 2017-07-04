@@ -1,0 +1,36 @@
+{
+  "code": 0,
+  "message": "成功",
+  "data": {
+    "offset": 0,
+    "limit": 2147483647,
+    "total": 67,
+    "size": 2147483647,
+    "pages": 1,
+    "current": 1,
+    "searchCount": true,
+    "records": [
+      {
+        "orderId": 778090017902202880,
+        "stationId": 1,
+        "stationName": null,
+        "status": 0,
+        "duration": "-1",
+        "channelId": 1,
+        "createTime": 1474346091000
+      },
+      {
+        "orderId": 778090103344369664,
+        "stationId": 1,
+        "stationName": null,
+        "status": 0,
+        "duration": "-1",
+        "channelId": 1,
+        "createTime": 1474346111000
+      }
+    ],
+    "orderByField": null,
+    "asc": true,
+    "offsetCurrent": 0
+  }
+}

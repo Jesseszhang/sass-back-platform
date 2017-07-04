@@ -1,0 +1,9 @@
+.DS_Store
+/node_modules/
+/npm-debug.log
+node_modules.zip
+*.sublime-project
+*.sublime-workspace
+.idea
+/dist.zip
+/dist

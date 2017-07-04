@@ -1,0 +1,19 @@
+%textshadow {
+  color: #ccc;
+  text-shadow: 0 2px 2px #fff;
+}
+
+.welcome {
+  padding-top: 200px;
+  text-align: center;
+
+  h2 {
+    font-size: 28px;
+    @extend %textshadow;
+  }
+
+  small {
+    font-size: 18px;
+    @extend %textshadow;
+  }
+}

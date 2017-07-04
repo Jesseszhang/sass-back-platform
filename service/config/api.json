@@ -1,0 +1,103 @@
+{
+  "maintain": {
+    "addNetController": "/device/box/addBox",
+    "netControllerDetail": "/device/box/queryBoxDetail",
+    "chargerList": "/device/charger/queryChargerList",
+    "warningRecord": "/warn/api/warning/queryDeviceWarnings",
+    "siteNameList": "/site/api/site/nameList",
+    "deviceList": "/device/box/seleceBoxCodeLikeCode",
+    "warningName": "/warn/api/warning/selectWarningsDetail",
+    "updateWarningNote": "/warn/api/warning/updateNoteWarning",
+    "updateEndWarning": "/warn/api/warning/updateEndWarning",
+    "netController":{
+      "list": "/device/box/queryBoxList",
+      "version": "/device/box/queryBoxVersions"
+    },
+    "charger":{
+      "setQRCode": "/device/charger/updateQrCode"
+    },
+    "warning":{
+      "history": "/warn/api/warning/queryHistoryWarnings",
+      "notice": "/warn/api/warning/sendNotice",
+      "settingDetail": "/warn/api/warning/selectWarnings"
+    }
+  },
+  "site": {
+    "siteList": "/api/site/page",
+    "stallList": "/site/api/stall/queryStall",
+    "saveRegionResult": "/site/api/stall/saveRegion",
+    "areaList": "/site/api/stall/findAll",
+    "updateRegion": "/site/api/stall/updateRegion",
+    "areaDelete": "/site/api/stall/delete",
+    "saveStall": "/site/api/stall/saveStall",
+    "delStall": "/site/api/stall/delStall",
+    "queryByBoxCode": "/site/api/stall/queryByBoxCode",
+    "queryNotBindingBox": "/site/api/stall/queryNotBindingBox",
+    "nameList": "/site/api/stall/nameList",
+    "updateWare": "/site/api/stall/updateWare",
+    "move": "/site/api/stall/move",
+    "addSite": {
+      "uploadImg": "/file/api/upload/img",
+      "selectPcd": "/site/api/pcd/selectPcd",
+      "selectBrand": "/site/api/site/queryBrandList",
+      "siteSave": "/site/api/site/save"
+    },
+    "siteLists": {
+      "selectPcd": "/site/api/pcd/selectPcd",
+      "page": "/site/api/site/page",
+      "exports": "/site/api/site/export"
+    },
+    "survey": {
+      "query": "/site/api/site/getSiteSurvey",
+      "updateStatus": "/site/api/site/updateStatus"
+    },
+    "updateSite": {
+      "selectPcd": "/site/api/pcd/selectPcd",
+      "selectBrand": "/site/api/site/queryBrandList",
+      "findOne": "/site/api/site/findOne",
+      "update": "/site/api/site/update"
+    },
+    "stayLists": {
+      "findWait": "/site/api/site/findWaitOnLines",
+      "selectPcd": "/site/api/pcd/selectPcd"
+    },
+    "carControl": {
+      "findAll": "/site/api/stall/findAll",
+      "lists": "/site/api/stall/siteChargerMonitor",
+      "boxCode": "/site/api/stall/seleceBoxCodeLikeCode"
+    },
+    "carDetails": {
+      "details": "/site/api/stall/parkingDetail",
+      "stopCharge":"site/api/stall/stopElectricize"
+    },
+    "monitor": {
+      "history": "/site/api/stall/chargerHistory"
+    }
+  },
+  "order": {
+    "orderList": "/order/api/chargerorder/queryList",
+    "orderDetail": "/order/api/chargerorder/queryDetail",
+    "updateOrder": "/order/api/chargerorder/updateOrderStatus",
+    "chargerRecord": "/order/api/chargerorder/getChargerRecord",
+
+    "exportCsv": "/order/api/chargerorder/export"
+  },
+  "client": {
+    "clientList": "/card/api/user/queryUsers",
+    "basicData": "/card/api/user/findByUserId",
+    "orderList": "/card/api/user/findOrderByUser"
+  },
+  "billing": {
+    "selectNameList": "/site/api/billing/selectNameList",
+    "billDetail": "/site/api/billing/getDetailById"
+  },
+  "login": {
+    "login": "/merchant/api/merchant/login",
+    "logout": "/merchant/api/merchant/logout",
+    "code": "/merchant/api/merchant/code",
+    "userInfo": "/merchant/api/merchant/getMerchantByToken"
+  },
+  "community":{
+    "detailsInfoList": "/list"
+  }
+}

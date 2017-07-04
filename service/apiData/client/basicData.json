@@ -1,0 +1,27 @@
+{
+  "code":0,
+  "message":"成功",
+  "data":{
+    "cards":[
+      {
+          "cardNo":"CD11609190000306",
+          "type":1,
+          "status":1,
+          "cardActivationDate":1474269444000
+      }
+    ],
+    "username":"test",
+    "balance":null,
+    "image":"1.jpg",
+    "regTime":1474442005000,
+    "lastLogin":1474961601000,
+    "uid":"2werwr233",
+    "sex":1,
+    "sourceId":1,
+    "phone":"15622205048",
+    "email":"62342343@qq.com",
+    "wechant":"1212323223",
+    "microblog":null,
+    "qq":null
+  }
+}

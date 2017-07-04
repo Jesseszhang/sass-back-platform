@@ -1,0 +1,192 @@
+.car {
+    height: 100%;
+    .fl {
+        float: left;
+    }
+    .fr {
+        float: right;
+    }
+    p {
+        margin: 0;
+        color: #fff;
+        white-space: nowrap;
+    }
+    .carTop {
+        padding-top: 31px;
+        height: 14.28%;
+        font-size: 20px;
+        line-height: 24px;
+        color: #fff;
+        opacity: .7;
+        font-weight: bold;
+    }
+    .carMid {
+        height: 85.72%;
+        padding: 20px;
+        background-color: rgba(239, 239, 239, 0.09);
+        box-shadow: 0 5px 6px 0 #000000;
+        .Mleft {
+            height: 100%;
+            width: 18.01%;
+            div {
+                height: 49%;
+                border-radius: 4px;
+                background-color: #2980FF;
+                &>div:first-child {
+                    height: 44.32%;
+                    padding: 10px 0 0 10px;
+                }
+                &>div:last-child {
+                    height: 55.68%;
+                    width: 100%;
+                    position: relative;
+                    &>div {
+                        width: 81.37%;
+                        height: 100%;
+                        background: url(ic_car.svg) no-repeat;
+                        opacity: 0.07;
+                        background-size: cover;
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                    }
+                    p {
+                        text-align: right;
+                        position: absolute;
+                    }
+                    p:first-child {
+                        opacity: 0.8;
+                        font-size: 12px;
+                        transform: scale(0.86, 0.86);
+                        bottom: 50px;
+                        right: 10px;
+                    }
+                    p:last-child {
+                        font-size: 30px;
+                        position: absolute;
+                        bottom: 10px;
+                        right: 14px;
+                    }
+                }
+            }
+            &>div:first-child {
+                margin-bottom: 5%;
+            }
+        }
+        .Mright {
+            height: 100%;
+            width: 81.9%;
+            padding-left: 20px;
+            .MRtop {
+                height: 81.44%;
+                &>div {
+                    height: 100%;
+                }
+                .MRTleft {
+                    width: 27.18%;
+                    div {
+                        margin-top: 10px;
+                        width: 100%;
+                        height: 14%;
+                        padding: 10px 7px 10px 35px;
+                        position: relative;
+                        border-radius: 4px;
+                        overflow: hidden;
+                        background-color: rgba(239, 239, 239, 0.09);
+                        color: rgba(255, 255, 255, 0.8);
+                        font-size: 20px;
+                        line-height: 100%;
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            width: 11.56%;
+                            border-radius: 2px;
+                            height: 100%;
+                            left: 0%;
+                            top: 0;
+                        }
+                    }
+                    .fszl:before {
+                        background-color: #C934FF;
+                    }
+                    .gwyc:before {
+                        background-color: #425AFE;
+                    }
+                    .wlc:before {
+                        background-color: #6BBC73;
+                    }
+                    .bus:before {
+                        background-color: #FFD800;
+                    }
+                    .taxi:before {
+                        background-color: #FF792F;
+                    }
+                }
+                .MRTmid {
+                    width: 59.44%;
+                }
+                .MRTright {
+                    width: 13.28%;
+                    div {
+                        width: 100%;
+                        height: 18.17%;
+                        border-radius: 3px 3px 6px 6px;
+                        background-color: rgba(239, 239, 239, 0.09);
+                        margin-top: 10px;
+                        text-align: center;
+                        padding: 5px 0;
+                        p:first-child {
+                            font-size: 12px;
+                            transform: scale(0.83, 0.83);
+                            opacity: .5;
+                        }
+                        p:last-child {
+                            font-size: 20px;
+                        }
+                    }
+                    .free {
+                        border-top: 3px solid #0092E0;
+                    }
+                    .occupy {
+                        border-top: 3px solid #6177FD;
+                    }
+                    .fault {
+                        border-top: 3px solid #EE6E6E;
+                    }
+                    .offline {
+                        border-top: 3px solid #E3E3E3;
+                    }
+                }
+            }
+            .MRbot {
+                height: 18.56%;
+                border-radius: 6px;
+                padding: 10px;
+                background-color: rgba(239, 239, 239, 0.09);
+                div {
+                    width: 25%;
+                    height: 100%;
+                    padding: 0 6.25%;
+                    border-right: 1px solid rgba(239, 239, 239, 0.2);
+                    text-align: center;
+                    p:first-child {
+                        opacity: 0.5;
+                        font-size: 12px;
+                        transform: scale(0.66, 0.66);
+                        text-indent: -12px;
+                        margin-top: 5px;
+                        color: #fff;
+                    }
+                    p:last-child {
+                        font-size: 20px;
+                        color: #fff;
+                        margin-top: -5px;
+                    }
+                }
+                &>div:last-child {
+                    border-right: none;
+                }
+            }
+        }
+    }
+}

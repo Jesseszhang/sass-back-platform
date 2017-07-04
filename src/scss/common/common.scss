@@ -1,0 +1,48 @@
+@import "../config.scss";
+
+.clear-fix {
+  &::before,
+  &::after {
+    content: '\200b';
+    clear: both;
+    display: table-cell;
+  }
+}
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.vertical-middle {
+  vertical-align: middle;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.table-primary {
+  background: #fff;
+  border: $border-light-color $border-thin solid;
+
+  thead {
+    background: $bg-color;
+  }
+
+  tr {
+    &:nth-child(2n) {
+      background: $bg-light-color;
+    }
+  }
+
+  th {
+    padding: $gap-v-double;
+  }
+
+  td {
+    padding: $gap-v-double;
+  }
+}

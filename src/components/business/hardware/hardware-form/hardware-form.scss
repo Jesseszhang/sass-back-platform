@@ -1,0 +1,95 @@
+.hardware-form-wrap {
+  padding: 20px;
+  position: relative;
+  .form-area {
+    width: 900px;
+    margin: 20px auto;
+    position: relative;
+  }
+  .control-label {
+    width: 150px;
+    padding-top: 10px;
+  }
+  .deviceType-wrap {
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+  }
+  .limit-width {
+    width: 450px;
+  }
+  .select-limit-width {
+    width: 160px;
+  }
+  .item-label, .item-content {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .item-label {
+    width: 20px;
+  }
+  .type-limit-width, .brand-limit-width{
+    width: 500px;
+  }
+  .zcurrent-width, .zvoltage-width{
+    width: 160px;
+  }
+  .brand-limit-width{
+    margin-bottom: 15px;
+  }
+  .chargerType-width {
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+  }
+  .item-label-other {
+    width: 150px;
+    float: left;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 15px;
+    margin-right: 15px;
+  }
+  .item-content-other {
+    float: left;
+    margin-right: 5px;
+  }
+  .item-content {
+    margin-right: 5px;
+  }
+  .sinNetDetail-width {
+    width: 330px;
+  }
+  .item-content.vertical-top {
+    vertical-align: top;
+  } 
+  .out-port {
+    width: 100%;
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    .currentType-width{
+      width: 100px;
+    }
+    .powerKw-width {
+      width: 140px;
+    }
+    .jvoltage-width, .jcurrent-width {
+      width: 160px;
+    }
+    .chargeInterface-width, .standard-width {
+      width: 100px
+    }
+    .url-option {
+      cursor: pointer;
+      width: 34px;
+      height: 34px;
+      display: inline-block;
+      vertical-align: middle;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

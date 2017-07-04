@@ -1,0 +1,339 @@
+ .mapDetail {
+    position: relative;
+    .fixed-top {
+      z-index: 11;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 148px;
+      background-image: linear-gradient(-180deg, #1C305A 12%, rgba(9,13,32,0.54) 100%);
+      text-align: center;
+      a {
+        position: absolute;
+        top: 31px;
+        left: 25px;
+        text-align: center;
+        display: inline-block;
+        height: 36px;
+        width: 104px;
+        line-height: 36px;
+        color: #fff;
+        background: #000000;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+        border-radius: 4px 4px 0 4px 4px;
+        span {
+          padding-left: 6px;
+        }
+        &:hover {
+          text-decoration: none;
+        }
+      }
+      strong {
+        font-size: 20px;
+        color: #FFFFFF;
+        letter-spacing: -0.49px;
+        opacity: 0.8;
+        font-weight: bold;
+        line-height: 26px;
+        position: relative;
+        top: 31px;
+      }
+    }
+    .info {
+      position: absolute;
+      top: 564px;
+      left: 636px;
+      width: 202px;
+      background: rgba(0, 0, 0, .5);
+      box-shadow: 0 2px 4px 0 ;
+      border-radius: 4px;
+      .info-header {
+        background: rgba(41,128,255,.9);
+        padding: 12px 14px;
+        color: #fff;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        h3 {
+          font-size: 16px;
+          letter-spacing: -0.39px;
+          line-height: 24px;
+          text-align: center;
+          margin-top: 0;
+          margin-bottom: 6px;
+        }
+        .section {
+          font-size: 12px;
+          letter-spacing: -0.3px;
+          .title {
+            float: left;
+            width: 25%;
+          }
+          .con {
+            float: left;
+            width: 75%;
+            .dc {
+              margin-right: 5px;
+            }
+            .swap {
+              margin-left: 5px;
+            }
+          }
+        }
+        p {
+          opacity: 0.8;
+          font-size: 12px;
+          letter-spacing: -0.3px;
+          line-height: 16px;
+          margin-bottom: 3px;
+          .dc {
+            margin-right: 5px;
+          }
+          .swap {
+            margin-left: 5px;
+          }
+        }
+      }
+      .info-content {
+        width: 100%;
+        padding: 12px 0;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        .status {
+          width: 100%;
+          .idle , .odd, .busy, .offine{
+            font-size: 14px;
+            color: #FFFFFF;
+            letter-spacing: -0.35px;
+            line-height: 24px;
+            padding-left: 18px;
+            float: left;
+            &:before {
+              content: '';
+              display: inline-block;
+              width: 8px;
+              height: 8px;
+              border-radius: 50%;
+            }
+            span {
+              margin-right: 5px;
+              margin-left: 5px;
+            }
+          }
+
+          .idle {
+            &:before {
+              background: #0092E0;
+            }
+          }
+
+          .odd {
+            &:before {
+              background: #EE6E6E;
+            }
+          }
+
+          .busy {
+            &:before {
+              background: #6177FD;
+            }
+          }
+
+          .offine {
+            &:before {
+              background: #8CB2D1;
+            }
+          }
+
+        }
+      }
+    }
+    .state {
+      position: absolute;
+      left: 50%;
+      bottom: 40px;
+      margin-left: -354px;
+      width: 708px;
+      height: 80px;
+      background: rgba(0,0,0,.69);
+      box-shadow: 0 5px 6px 0 #000000;
+      border-radius: 6px;
+      .section {
+        color: #fff;
+        letter-spacing: -0.34px;
+        height: 19px;
+        &:first-child {
+          margin-top: 13px;
+          margin-bottom: 13px;
+        }
+        h3 {
+          float: left;
+          font-size: 14px;
+          margin: 0;
+          width: 28px;
+          height: 19px;
+          line-height: 19px;
+          margin-left: 31px;
+          margin-right: 26px;
+        }
+        p {
+          float: left;
+          font-size: 14px;
+          margin-bottom: 0;
+        }
+
+        .idle , .odd, .busy, .offine{
+          font-size: 14px;
+          color: #FFFFFF;
+          letter-spacing: -0.35px;
+          line-height: 19px;
+          width: 164px;
+          float: left;
+          &:before {
+            content: '';
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            top: 2px;
+            position: relative;
+          }
+          span {
+            margin-right: 5px;
+            margin-left: 5px;
+            &.text {
+              margin-right: 11px;
+            }
+          }
+        }
+
+        .idle {
+          &:before {
+            background: #0092E0;
+          }
+        }
+
+        .odd {
+          &:before {
+            background: #EE6E6E;
+          }
+        }
+
+        .busy {
+          &:before {
+            background: #6177FD;
+          }
+        }
+
+        .offine {
+          width: 128px;
+          &:before {
+            background: #8CB2D1;
+          }
+        }
+
+        .charging, .driving, .alarm, .offine-car {
+          width: 164px;
+          img {
+            transform: rotate(-90deg);
+            width: 14px;
+            height: 27px;
+            position: relative;
+            top: -2px;
+          }
+          .text {
+            margin-left: 12px;
+            margin-right: 10px;
+          }
+        }
+        .offine-car {
+          width: 128px;
+        }
+      }
+    }
+    .station-marker {
+      background: url('./../../../assets/ic_station.svg');
+      background-size: 100% 100%;
+      width: 34px;
+      height: 40px;
+      padding-bottom: 17px;
+      padding-top: 9px;
+      text-align: center;
+      font-size: 10px;
+      color: #333333;
+      letter-spacing: -0.28px;
+      .text {
+        font-size: 12.5px;
+        transform: scale(0.8);
+        line-height: 1;
+        display:inline-block;
+        position: relative;
+        left: -12.5%;
+        width: 125%;
+        &.scale5 {
+          transform: scale(0.6);
+        }
+        &.scale6 {
+          transform: scale(0.5);
+        }
+        &.scale7 {
+          transform: scale(0.4);
+        }
+      }
+    }
+    .car-charging-marker {
+      background: url(../../../assets/ic_car_charging.svg) no-repeat;
+      background-size: cover;
+      height: 28px;
+      width: 14px;
+      transform: rotate(90deg);
+    }
+    .car-driving-marker {
+      background: url(../../../assets/ic_car_driving.svg) no-repeat;
+      background-size: cover;
+      height: 28px;
+      width: 14px;
+      transform: rotate(90deg);
+    }
+    .car-alarm-marker {
+      background: url(../../../assets/ic_car_alarm.svg) no-repeat;
+      background-size: cover;
+      height: 28px;
+      width: 14px;
+      transform: rotate(90deg);
+    }
+    .car-offine-marker {
+      background: url(../../../assets/ic_car_offine.svg) no-repeat;
+      background-size: cover;
+      height: 28px;
+      width: 14px;
+      transform: rotate(90deg);
+    }
+    .car-info {
+      background: #000000;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+      border-radius: 4px;
+      width: 200px;
+      height: 140px;
+      padding: 10px 0 10px 20px;
+      p {
+        margin-bottom: 0;
+        span {
+          width: 91px;
+          display: inline-block;
+          font-size: 16px;
+          color: #FFFFFF;
+          letter-spacing: -0.39px;
+          line-height: 24px;
+          font-weight: normal;
+        }
+        strong {
+          font-size: 16px;
+          color: #FFFFFF;
+          letter-spacing: -0.39px;
+          line-height: 24px;
+        }
+      }
+    }
+  }

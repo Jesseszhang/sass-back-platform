@@ -1,0 +1,48 @@
+{
+  "code": 0,
+  "message": "成功",
+  "data": {
+    "id": 1,
+    "baseId": null,
+    "name": "计费模板1",
+    "billWay": 1,
+    "serviceFeeType": 1,
+    "serviceFee": 1,
+    "isTimeSharing": 1,
+    "unitPrice": 1,
+    "createTime": null,
+    "updateTime": null,
+    "validTime":"2016-04-22:15:30",
+    "invalidTime":"2016-04-22:15:30",
+    "status": 0,
+    "version": 1,
+    "shareTimeList": [
+      {
+        "id": 1,
+        "templateId": 1,
+        "timeShareType": 1,
+        "startTime": "13:00",
+        "startTimeH": 13,
+        "startTimeM": 0,
+        "endTime": "15:00",
+        "endTimeH": 15,
+        "endTimeM": 0,
+        "unitPrice": 1,
+        "status": null
+      },
+      {
+        "id": 2,
+        "templateId": 1,
+        "timeShareType": 2,
+        "startTime": "20:00",
+        "startTimeH": 20,
+        "startTimeM": 0,
+        "endTime": "22:00",
+        "endTimeH": 22,
+        "endTimeM": 0,
+        "unitPrice": 0.05,
+        "status": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+@import "~config.scss";
+$re-width14: 16%;
+$font-size14: 14px;
+
+
+.zclip-tip{
+			position: absolute;
+	    display: none;
+	    padding: 4px 8px;
+	    background: #fff;
+	    border: 1px solid #ddd;
+	   
+	    color: #333;
+	    border-radius: 5px;
+	    box-shadow: 0 0 3px rgba(0,0,0,.3);
+	    transform: translateX(-50%);
+	    z-index:999;
+
+	    &.mover-zclip{
+	    	display:inline-block;
+	    }
+
+	    &:before{
+	    	content: "\F0DE";
+	    	position: absolute;
+		    top: 2px;
+		    left: 50%;
+		    transform: translateX(-50%);
+		    font-size: 24px;
+		    line-height: 0px;
+		    color: #fff;
+		    text-shadow: 0px -1px 2px rgba(0,0,0,.3);
+	    }
+		}
+
+.wrap-sendMessage{	
+	padding:20px;
+	.recycled-comm{
+		padding:20px;
+		    background-color: #fff;
+    border: 1px solid #e5e5e5;
+		margin-top: 0;
+		.table-wrap{
+			width:100%;
+		}
+		.recycled-table{
+			clear:both;
+		}
+
+		.row-group{
+			a:hover{
+				text-decoration:none;
+			}
+		}
+		.txt-cn{
+			text-align:center;
+		}
+		.table-data-stage{
+			clear:both;
+		}
+		.aline{
+			margin: 0 2px 0 6px;
+    color: #ddd;
+    font-size: 12px;
+    vertical-align: middle;
+    height: 10px;
+    display: inline-block;
+    overflow: hidden;
+    width: 1px;
+    background: #ccc;
+		}
+		.search-area{
+		position:relative;
+		z-index:99;
+			margin-bottom: 20px;
+
+			.clear-btn{
+				float:right;
+			}
+			.time-pick{
+				display: inline-block;
+				margin-left: 10px;
+
+				.fa-calendar{
+					margin-left:-24px;
+
+					&+ .line{
+						margin-left: 8px;
+   					margin-right: 1px;
+					}
+				}
+
+				.input-date{
+					width: 128px;
+					height: 36px;
+					display:inline-block;
+				}
+			}
+		.search-time-wrap{
+			float:left;
+			margin-bottom: 20px;
+
+			.drop-menu-stage{
+				width:144px;
+			}
+		}
+		.clear-wrap{
+			clear:both;
+		}
+
+		.search-name-wrap{
+			float:left;
+			margin-bottom: 20px;
+
+			.drop-menu-input-stage{
+				width: 330px;
+
+				.drop-menu-stage{
+					width: 40%;
+				}
+			}
+			
+			.btn-stage{
+				overflow: hidden;
+				margin-left: 20px;
+			},
+			.input-box-stage{
+				vertical-align:top;
+			}
+		}
+
+		.tab-items{
+				display:inline-block;
+				margin-right:20px;
+				vertical-align: middle;
+
+				span{
+					background: #fff;
+	    		color: #000;
+	    		box-shadow: 0 2px 2px #ddd;
+			    display: inline-block;
+			    padding: 8px 20px;
+			    border: 1px solid #ddd;
+			    cursor: pointer;
+			    margin-left: -1px;
+			    line-height: 17px;
+			    float:left;
+			    overflow:hidden;
+
+			    &.target{
+			    	background:#f3f3f3;
+			    }
+	    		&:last-child{
+	    			border-radius: 0 5px 5px 0;
+	    		}
+	    		&:first-child{
+	    			border-radius: 5px 0 0 5px;
+	    		}
+				}
+			}
+			
+		}
+
+		}
+	}
+	

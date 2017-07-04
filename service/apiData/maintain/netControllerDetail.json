@@ -1,0 +1,79 @@
+{
+  "data": {
+    "box": {
+      "boxId": 24,
+      "boxCode": "403482456285511688",
+      "boxOutFactoryCode": "3333333899888",
+      "status": 10,
+      "heartBeatTime": "Sep 22, 2016 5:03:07 PM",
+      "protocolType": 1,
+      "boxFactoryCode": 122,
+      "boxVersion": "12",
+      "chargerNum": 56,
+      "channelId": 1000,
+      "netWork": "123",
+      "expand": "22",
+      "stationCode": "888",
+      "businessId": "1",
+      "madeStatus": 0
+    },
+    "chargers": [
+      {
+        "bcId": 141,
+        "bcCode": "403482456285511699",
+        "qrCode": "888",
+        "evseId": 1,
+        "connectorId": 1,
+        "currentType": 0,
+        "carStationCode": "11",
+        "status": -300,
+        "hearBeatTime": "Sep 21, 2016 5:45:54 PM",
+        "groupId": "370639906524893189",
+        "groupPosInBox": 5,
+        "orderId": "0",
+        "channelId": 11,
+        "boxCode": "403482456285511688",
+        "stationCode": "888"
+      }
+    ],
+    "locks": [
+      {
+        "blId": 71,
+        "lockCode": "123456789999",
+        "boxCode": "403482456285511688",
+        "posInBox": 106,
+        "capacity": 110,
+        "heartBeatTime": "May 24, 1970 8:07:57 AM",
+        "groupId": "rrrtt666",
+        "groupPosInBox": 888,
+        "carStationCode": "444",
+        "status": 20,
+        "channelId": 55,
+        "netWork": "123",
+        "stationCode": "888"
+      }
+    ],
+    "sensors": [
+      {
+        "bsId": 19,
+        "sensorCode": "5345345345345",
+        "boxCode": "403482456285511688",
+        "posInBox": 8,
+        "capacity": 88,
+        "heartBeatTime": "Sep 12, 2016 4:51:37 PM",
+        "groupId": "33",
+        "groupPosInBox": 2,
+        "type": 1,
+        "status": 10,
+        "carStationCode": "444",
+        "bit": 13,
+        "channelId": 13,
+        "netWork": "22",
+        "expand": "456",
+        "stationCode": "888"
+      }
+    ]
+  },
+  "code": 0,
+  "message": "成功"
+}

@@ -1,0 +1,23 @@
+    {
+      "code": 0,
+      "message": "成功",
+      "data": [
+        {
+          "operateName": "充电网",
+          "dicList": [
+              {
+                "id": 1,
+                "deviceName": "比亚迪充电桩"
+              },
+              {
+                "id": 2,
+                "deviceName": "t"
+              },
+              {
+                "id": 3,
+                "deviceName": "t"
+              }
+          ]
+        }
+      ]
+    }

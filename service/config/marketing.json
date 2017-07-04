@@ -1,0 +1,8 @@
+{
+  "marketing": {
+    "chargingTemplateList": "/site/api/billing/page",
+    "chargingTemplateDetail": "/site/api/billing/findById",
+    "addChargingTemplate": "/site/api/billing/save",
+    "chargingTemplateVersionList": "/site/api/billing/getTemplateVersion"
+  }
+}

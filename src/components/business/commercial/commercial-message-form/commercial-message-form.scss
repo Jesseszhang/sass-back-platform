@@ -1,0 +1,26 @@
+  .commercial-message-form-wrap {
+    padding: 20px;
+    position: relative;
+    .form-area{
+      width:520px;
+      margin: 20px auto;
+      position: relative;
+      .all-select-wrap{
+        margin-right: 5px;
+      }
+    }
+    .status-wrap {
+      height: 35px;
+      line-height: 35px;
+      vertical-align: middle;
+    }
+    .control-label {
+      width: 110px;
+      padding-top: 10px;
+    }
+    .check-box-wrap{
+      height: 35px;
+      line-height: 35px;
+      vertical-align: middle;
+    }
+  }

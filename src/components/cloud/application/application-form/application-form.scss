@@ -1,0 +1,64 @@
+.application-form-wrap{
+  padding: 20px;
+  position: relative;
+  .form-area {
+    width: 585px;
+    margin: 20px auto;
+  }
+  .check-wrap{
+    height: 35px;
+    line-height: 35px;
+    input span{
+      vertical-align: middle;
+    }
+  }
+  .control-label{
+    width: 120px;
+    padding-top: 10px;
+  }
+  .check-box-wrap{
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+  }
+  .resource-function{
+    width: 430px;
+    padding: 5px 15px;
+    border: 1px solid #d6d6d6;
+    border-radius: 3px; 
+    display: inline-block;
+    vertical-align: top;
+    p{
+      margin: 0;
+      margin-top: 5px;
+      font-weight: bolder;
+      font-size: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #d6d6d6;
+    }
+    ul {
+      padding: 0;
+      padding-top: 10px;
+      list-style: none;
+      li {
+        float: left;
+        margin: 5px 15px 5px 0;
+        label{
+          width: 175px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          input{
+            margin: 0;
+            vertical-align: middle;
+          }
+          span{
+            display: inline-block;
+            margin-left: 2px;
+            vertical-align: middle; 
+          }
+        }
+      }
+    }
+  }
+} 

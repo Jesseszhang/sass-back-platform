@@ -1,0 +1,88 @@
+{
+  "code": 0,
+  "message": "成功",
+  "data": {
+    "records": [
+      {
+       "topicTit":"话题标题",
+        "topicId":"778090017902202880",
+        "topicLink":"http://www.baidu.com", 
+        "topicInfoLink":"http://www.baidu.com",
+        "topicInfoId":"54545454454",
+        "durationTime":[1474346091000,1474346091000], 
+        "state":"未上线", 
+        "browseCount":23, 
+        "postCount":22, 
+        "createTime": 1474346091000,
+        "deleter": "删除人",
+        "deleteTime": 1474346091000,
+        "type":1,
+        "applyInfo":{
+            "amount":34,
+            "id":343243433 
+        }
+    },
+    {
+       "topicTit":"话题标题",
+        "topicId":"778090017902202880",
+        "topicLink":"http://www.baidu.com", 
+        "topicInfoLink":"http://www.baidu.com",
+        "topicInfoId":"54545454454",
+        "durationTime":[1474346091000,1474346091000], 
+        "state":"未上线", 
+        "browseCount":23, 
+        "postCount":22, 
+        "createTime": 1474346091000,
+        "deleter": "删除人",
+        "deleteTime": 1474346091000,
+        "type":1,
+        "applyInfo":{
+            "amount":34,
+            "id":343243433 
+        }
+    },
+    {
+       "topicTit":"话题标题",
+        "topicId":"778090017902202880",
+        "topicLink":"http://www.baidu.com", 
+        "topicInfoLink":"http://www.baidu.com",
+        "topicInfoId":"54545454454",
+        "durationTime":[1474346091000,1474346091000], 
+        "state":"未上线", 
+        "browseCount":23, 
+        "postCount":22, 
+        "createTime": 1474346091000,
+        "deleter": "删除人",
+        "deleteTime": 1474346091000,
+        "type":1,
+        "applyInfo":{
+            "amount":34,
+            "id":343243433 
+        }
+    },
+    {
+       "topicTit":"话题标题",
+        "topicId":"778090017902202880",
+        "topicLink":"http://www.baidu.com", 
+        "topicInfoLink":"http://www.baidu.com",
+        "topicInfoId":"54545454454",
+        "durationTime":[1474346091000,1474346091000], 
+        "state":"未上线", 
+        "browseCount":23, 
+        "postCount":22, 
+        "createTime": 1474346091000,
+        "deleter": "删除人",
+        "deleteTime": 1474346091000,
+        "type":1,
+        "applyInfo":{
+            "amount":34,
+            "id":343243433 
+        }
+    }
+    ],
+    "total": 2,
+    "pages": 4,
+    "current": 1,
+    "size": 10
+  }
+}

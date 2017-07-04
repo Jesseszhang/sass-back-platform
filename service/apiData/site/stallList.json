@@ -1,0 +1,53 @@
+{
+  "code": 0,
+  "message": "成功",
+  "data": {
+    "pager": {
+      "total": 0,
+      "limit": 10,
+      "pages": 0,
+      "current": 1,
+      "size": 10
+    },
+    "records": [
+      {
+        "id": 1,        
+        "stallNumber": "B1",    
+        "boxId": 1,       
+        "lockId": 1,      
+        "magnetismId": "1,2",       
+        "siteId": 2,       
+        "regionId": 1,      
+        "gunId": 1,  
+        "gunName": "交流",
+        "gunCode":  2323,     
+        "costId": 1,  
+        "costName": "A模板",      
+        "remark": "hello world",        
+        "runStatus": 1,     
+        "status": 1,        
+        "pileName": null,
+        "sequence": 1
+      },
+      {
+        "id": 2,      
+        "stallNumber": "B2",   
+        "boxId": "1",       
+        "lockId": "1",     
+        "magnetismId": "1,2",      
+        "siteId": 2,       
+        "regionId": 1,     
+        "gunName": "交流",   
+        "gunId": "1",
+        "gunCode":  2323,      
+        "costId": 2, 
+        "costName": "B模板",       
+        "remark": "hello world",       
+        "runStatus": 1,    
+        "status": 1,       
+        "pileName": null,
+        "sequence": 2
+      }
+    ]
+  }
+}
